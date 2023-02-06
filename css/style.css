@@ -1,0 +1,207 @@
+nav {
+    width: 98%;
+    padding: 1%;
+    text-align: end;
+    margin-left: auto;
+    background-color: white;
+}
+
+ul {
+    width: 90%;
+}
+
+h1 {
+    color: #320A18;
+    font-size: 36px;
+    font-family: 'Lora', serif;
+    font-style: italic;
+    font-weight: 500px;
+}
+
+h3 {
+    color: #320A18;
+    font-family: 'Lato', sans-serif;
+    font-size: 17px;
+    font-style: italic;
+}
+
+a {
+    color: #893251;
+    font-family: 'Lato', sans-serif;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+}
+
+li {
+    font-family: 'Lato', sans-serif;
+}
+
+footer {
+    text-align: center;
+    padding-top: 25px;
+    border-top: 1px solid #893251;
+    height: 50px;
+    padding-bottom: 32px;
+    background-color: white;
+}
+
+.bottomfooter {
+    padding-top: 22px;
+    margin: 0 auto;
+}
+
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+    padding-right: 30px;
+}
+
+.logo {
+    width:15.5%;
+    padding: 1%;
+    text-align:end;
+}
+
+.navigation {
+    display: flex;
+    border-bottom: 1px solid #893251;
+}
+
+.navbar {
+    margin-left: auto;
+    padding-right: 50px;
+    padding-top: 10px;
+}
+
+.heroSection {
+    display: flex;
+    flex-direction:row;
+    height: 450px;
+    align-items: center;
+    justify-content: center;
+    background-color:#fdf3ed;   
+}
+
+.profilephoto {
+    border: 1px solid #893251; 
+    height: 402.3px;
+}
+
+.content {
+    text-align: center;
+    width: 500px;
+    height: 402.3px;
+    border: 1px solid #893251; 
+    background-color: white;
+    margin-left: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.Skills {
+    border-top: 1px solid #893251;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 15px;
+}
+
+.UX_Skills {
+    padding-left: 120px;
+    width: 400px;
+}
+
+.UI_Skills {
+    width: 400px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.software {
+    width: 400px;
+    padding-right: 60px;
+}
+
+.sw {
+    display: flex;
+    flex-direction: row;
+}
+
+.hobbies {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;   
+    padding-top: 50px; 
+    padding-bottom: 20px;
+    text-align: center;
+    background-color:#fdf3ed; 
+    border-bottom: 1px solid #893251;  
+}
+
+.game {
+    max-width: 260px;
+}
+.cat {
+    max-width: 260px;
+}
+.drama {
+    max-width: 260px;
+}
+
+.works {
+    display: grid;
+    grid-template-areas: 'jap' 'baga';
+    justify-content: center;
+    text-align: center;
+    background-color:#fdf3ed; 
+    padding-bottom: 40px;
+}
+
+.JAP {
+    grid-area: jap;
+    padding-bottom: 50px;
+}
+
+.BAGA {
+    grid-area: baga;
+}
+
+.Magenta_Button {
+    background-color: #FFF1F1;
+    border: solid 1.5px #893251;
+    padding: 15px 32px;
+    font-family: 'Lato', sans-serif;
+    color: #893251;
+    transition-duration: 0.4s;
+}
+
+.Magenta_Button:hover {
+    background-color: #893251; 
+    color: white;
+    box-shadow: 0 10px 14px 0 rgba(0,0,0,0.24), 0 15px 30px 0 rgba(0,0,0,0.19);
+    cursor: pointer;
+  }
+
+  @media only screen and (max-width:600) {
+    .Skills {
+        display: flex;
+        align-items: center;
+        border-top: 1px solid #893251;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-bottom: 15px;
+    }
+    .hobbies {
+        display: flex;
+        flex-direction: column;
+        align-items: center;   
+        padding-top: 50px; 
+        padding-bottom: 20px;
+        text-align: center;
+        background-color:#fdf3ed; 
+        border-bottom: 1px solid #893251;  
+    }
+  }
