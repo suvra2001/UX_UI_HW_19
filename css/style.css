@@ -1,13 +1,15 @@
 nav {
-    width: 98%;
-    padding: 1%;
-    text-align: end;
-    margin-left: auto;
+    text-align: center;
+    margin: auto;
     background-color: white;
 }
 
-ul {
-    width: 90%;
+.navbar li {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    padding-right: 60px;
+    padding-left: 60px;
 }
 
 h1 {
@@ -49,13 +51,16 @@ footer {
 
 .bottomfooter {
     padding-top: 22px;
-    margin: 0 auto;
+    padding-right: 30px;
+    margin: 0px;
 }
 
-.inline-block {
+.bottomfooter li {
     display: inline-block;
     vertical-align: top;
-    padding-right: 30px;
+    text-align: center;
+    padding-right: 25px;
+    padding-left: 12px;
 }
 
 .logo {
@@ -70,9 +75,8 @@ footer {
 }
 
 .navbar {
-    margin-left: auto;
-    padding-right: 50px;
     padding-top: 10px;
+    padding-bottom: 10px;
     margin: auto;
 }
 
@@ -149,8 +153,8 @@ footer {
 
 .UI_Skills {
     width: 400px;
-    margin-right: 50px;
-    margin-left: 50px;
+    padding-right: 50px;
+    padding-left: 50px;
 }
 
 .software {
@@ -237,16 +241,26 @@ footer {
   .navButton {
     background-color: transparent;
     border: transparent;
-    padding: 10px 24px;
+    color:#320A18;
+    font-size: 14px;
+    padding: 10px 40px;
     margin: 10px;
+    transition-duration: 0.4s;
   }
 
   .navButton:hover {
     background-color: transparent;
-    padding: 10px 24px;
-    margin: 10px;
-    border: 1px solid #320A18;
+    color: #320A18;
     cursor: pointer;
+    text-shadow:
+    -.2px -.2px 0 #320A18,
+    .2px -.2px 0 #320A18,
+    -.2px .2px 0 #320A18,
+    .2px .2px 0 #320A18;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
   }
 
   @media only screen and (max-width:600) {
