@@ -256,6 +256,7 @@ footer {
     background-color: transparent;
     color: #320A18;
     cursor: pointer;
+    font-size: 16px;
     text-shadow:
     -.2px -.2px 0 #320A18,
     .2px -.2px 0 #320A18,
