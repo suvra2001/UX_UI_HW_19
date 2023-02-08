@@ -8,5 +8,4 @@ $('.test').on("click", function(e){
   $('html, body').animate({
       scrollTop: $(targetHref).offset().top
   }, 1000);
-  
 });
