@@ -45,7 +45,7 @@ footer {
     padding-top: 25px;
     border-top: 1px solid #893251;
     height: 50px;
-    padding-bottom: 32px;
+    padding-bottom: 42px;
     background-color: white;
 }
 
@@ -249,6 +249,30 @@ footer {
   }
 
   .navButton:hover {
+    background-color: transparent;
+    color: #320A18;
+    cursor: pointer;
+    text-shadow:
+    -.2px -.2px 0 #320A18,
+    .2px -.2px 0 #320A18,
+    -.2px .2px 0 #320A18,
+    .2px .2px 0 #320A18;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+  }
+
+  .bottomNavButton {
+    background-color: transparent;
+    border: transparent;
+    color:#320A18;
+    font-size: 14px;
+    padding: 0px 40px;
+    transition-duration: 0.4s;
+  }
+
+  .bottomNavButton:hover {
     background-color: transparent;
     color: #320A18;
     cursor: pointer;
